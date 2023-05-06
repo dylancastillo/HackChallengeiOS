@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFD94DCD2A04DE5A00340E47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD94DCC2A04DE5A00340E47 /* AppDelegate.swift */; };
+		FFD94DCF2A04DE5A00340E47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD94DCE2A04DE5A00340E47 /* SceneDelegate.swift */; };
+		FFD94DD12A04DE5A00340E47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD94DD02A04DE5A00340E47 /* ViewController.swift */; };
+		FFD94DD62A04DE5B00340E47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD94DD52A04DE5B00340E47 /* Assets.xcassets */; };
+		FFD94DD92A04DE5B00340E47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD94DD72A04DE5B00340E47 /* LaunchScreen.storyboard */; };
+		FFD94DE12A04DFBF00340E47 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD94DE02A04DFBF00340E47 /* Event.swift */; };
+		FFD94DE32A04DFCF00340E47 /* Invitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD94DE22A04DFCF00340E47 /* Invitation.swift */; };
+		FFD94DE52A04DFDA00340E47 /* Fraternity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD94DE42A04DFDA00340E47 /* Fraternity.swift */; };
+		FFD94DE72A04DFE100340E47 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD94DE62A04DFE100340E47 /* User.swift */; };
+		FFD94DE92A04E84B00340E47 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD94DE82A04E84B00340E47 /* EventTableViewCell.swift */; };
+		FFD94DEB2A04ED4C00340E47 /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD94DEA2A04ED4C00340E47 /* CreateEventViewController.swift */; };
+		FFD94DED2A04FFA900340E47 /* EventDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD94DEC2A04FFA900340E47 /* EventDetailsViewController.swift */; };
+		FFD94DEF2A05908300340E47 /* InvitesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD94DEE2A05908300340E47 /* InvitesViewController.swift */; };
+		FFD94DF12A05B20C00340E47 /* InvitesAllotmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD94DF02A05B20C00340E47 /* InvitesAllotmentTableViewCell.swift */; };
+		FFD94DF32A05B25500340E47 /* InvitesAllotmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD94DF22A05B25500340E47 /* InvitesAllotmentViewController.swift */; };
+		FFD94DF72A05B70600340E47 /* InviteAllotment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD94DF62A05B70600340E47 /* InviteAllotment.swift */; };
+		FFD94DF92A05CDC900340E47 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD94DF82A05CDC900340E47 /* NetworkManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FFD94DC92A04DE5A00340E47 /* fratapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fratapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD94DCC2A04DE5A00340E47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFD94DCE2A04DE5A00340E47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFD94DD02A04DE5A00340E47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFD94DD52A04DE5B00340E47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFD94DD82A04DE5B00340E47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFD94DDA2A04DE5B00340E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD94DE02A04DFBF00340E47 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		FFD94DE22A04DFCF00340E47 /* Invitation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invitation.swift; sourceTree = "<group>"; };
+		FFD94DE42A04DFDA00340E47 /* Fraternity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fraternity.swift; sourceTree = "<group>"; };
+		FFD94DE62A04DFE100340E47 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FFD94DE82A04E84B00340E47 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		FFD94DEA2A04ED4C00340E47 /* CreateEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
+		FFD94DEC2A04FFA900340E47 /* EventDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsViewController.swift; sourceTree = "<group>"; };
+		FFD94DEE2A05908300340E47 /* InvitesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitesViewController.swift; sourceTree = "<group>"; };
+		FFD94DF02A05B20C00340E47 /* InvitesAllotmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitesAllotmentTableViewCell.swift; sourceTree = "<group>"; };
+		FFD94DF22A05B25500340E47 /* InvitesAllotmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitesAllotmentViewController.swift; sourceTree = "<group>"; };
+		FFD94DF62A05B70600340E47 /* InviteAllotment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteAllotment.swift; sourceTree = "<group>"; };
+		FFD94DF82A05CDC900340E47 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFD94DC62A04DE5A00340E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFD94DC02A04DE5A00340E47 = {
+			isa = PBXGroup;
+			children = (
+				FFD94DCB2A04DE5A00340E47 /* fratapp */,
+				FFD94DCA2A04DE5A00340E47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFD94DCA2A04DE5A00340E47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFD94DC92A04DE5A00340E47 /* fratapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFD94DCB2A04DE5A00340E47 /* fratapp */ = {
+			isa = PBXGroup;
+			children = (
+				FFD94DF52A05B33100340E47 /* Events */,
+				FFD94DF42A05B28600340E47 /* Invites */,
+				FFD94DCC2A04DE5A00340E47 /* AppDelegate.swift */,
+				FFD94DCE2A04DE5A00340E47 /* SceneDelegate.swift */,
+				FFD94DD02A04DE5A00340E47 /* ViewController.swift */,
+				FFD94DD52A04DE5B00340E47 /* Assets.xcassets */,
+				FFD94DD72A04DE5B00340E47 /* LaunchScreen.storyboard */,
+				FFD94DDA2A04DE5B00340E47 /* Info.plist */,
+				FFD94DE42A04DFDA00340E47 /* Fraternity.swift */,
+				FFD94DE62A04DFE100340E47 /* User.swift */,
+				FFD94DF82A05CDC900340E47 /* NetworkManager.swift */,
+			);
+			path = fratapp;
+			sourceTree = "<group>";
+		};
+		FFD94DF42A05B28600340E47 /* Invites */ = {
+			isa = PBXGroup;
+			children = (
+				FFD94DE22A04DFCF00340E47 /* Invitation.swift */,
+				FFD94DEE2A05908300340E47 /* InvitesViewController.swift */,
+				FFD94DF02A05B20C00340E47 /* InvitesAllotmentTableViewCell.swift */,
+				FFD94DF22A05B25500340E47 /* InvitesAllotmentViewController.swift */,
+				FFD94DF62A05B70600340E47 /* InviteAllotment.swift */,
+			);
+			path = Invites;
+			sourceTree = "<group>";
+		};
+		FFD94DF52A05B33100340E47 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				FFD94DEA2A04ED4C00340E47 /* CreateEventViewController.swift */,
+				FFD94DEC2A04FFA900340E47 /* EventDetailsViewController.swift */,
+				FFD94DE82A04E84B00340E47 /* EventTableViewCell.swift */,
+				FFD94DE02A04DFBF00340E47 /* Event.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFD94DC82A04DE5A00340E47 /* fratapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD94DDD2A04DE5B00340E47 /* Build configuration list for PBXNativeTarget "fratapp" */;
+			buildPhases = (
+				FFD94DC52A04DE5A00340E47 /* Sources */,
+				FFD94DC62A04DE5A00340E47 /* Frameworks */,
+				FFD94DC72A04DE5A00340E47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fratapp;
+			productName = fratapp;
+			productReference = FFD94DC92A04DE5A00340E47 /* fratapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFD94DC12A04DE5A00340E47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FFD94DC82A04DE5A00340E47 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = FFD94DC42A04DE5A00340E47 /* Build configuration list for PBXProject "fratapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFD94DC02A04DE5A00340E47;
+			productRefGroup = FFD94DCA2A04DE5A00340E47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFD94DC82A04DE5A00340E47 /* fratapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFD94DC72A04DE5A00340E47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD94DD92A04DE5B00340E47 /* LaunchScreen.storyboard in Resources */,
+				FFD94DD62A04DE5B00340E47 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFD94DC52A04DE5A00340E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD94DE92A04E84B00340E47 /* EventTableViewCell.swift in Sources */,
+				FFD94DE12A04DFBF00340E47 /* Event.swift in Sources */,
+				FFD94DE52A04DFDA00340E47 /* Fraternity.swift in Sources */,
+				FFD94DE32A04DFCF00340E47 /* Invitation.swift in Sources */,
+				FFD94DD12A04DE5A00340E47 /* ViewController.swift in Sources */,
+				FFD94DF72A05B70600340E47 /* InviteAllotment.swift in Sources */,
+				FFD94DF32A05B25500340E47 /* InvitesAllotmentViewController.swift in Sources */,
+				FFD94DCD2A04DE5A00340E47 /* AppDelegate.swift in Sources */,
+				FFD94DED2A04FFA900340E47 /* EventDetailsViewController.swift in Sources */,
+				FFD94DCF2A04DE5A00340E47 /* SceneDelegate.swift in Sources */,
+				FFD94DEF2A05908300340E47 /* InvitesViewController.swift in Sources */,
+				FFD94DE72A04DFE100340E47 /* User.swift in Sources */,
+				FFD94DF92A05CDC900340E47 /* NetworkManager.swift in Sources */,
+				FFD94DEB2A04ED4C00340E47 /* CreateEventViewController.swift in Sources */,
+				FFD94DF12A05B20C00340E47 /* InvitesAllotmentTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFD94DD72A04DE5B00340E47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFD94DD82A04DE5B00340E47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFD94DDB2A04DE5B00340E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFD94DDC2A04DE5B00340E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFD94DDE2A04DE5B00340E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fratapp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cornellappdev.fratapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFD94DDF2A04DE5B00340E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fratapp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cornellappdev.fratapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFD94DC42A04DE5A00340E47 /* Build configuration list for PBXProject "fratapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD94DDB2A04DE5B00340E47 /* Debug */,
+				FFD94DDC2A04DE5B00340E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD94DDD2A04DE5B00340E47 /* Build configuration list for PBXNativeTarget "fratapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD94DDE2A04DE5B00340E47 /* Debug */,
+				FFD94DDF2A04DE5B00340E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFD94DC12A04DE5A00340E47 /* Project object */;
+}
