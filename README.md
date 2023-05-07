@@ -1,7 +1,12 @@
 # Frat App
-App Tagline: short one-liner description of your app
+
+App Tagline: events manager for fraternity members, and attendees of fraternity events.
+
 https://github.com/Aayush-Agnihotri/HackChallenge
-A short description of your app (its purpose and features)
+
+We want to develop an app that streamlines the process for fraternities to admit and manage attendees at their parties, allowing them to grant or deny access via a digital scan rather than physical wristbands. Fraternities will allow certain members of their frat to allot invites to one or many people (where one person can share with a few of their friends). There are three types of users on this application, (i) regular students not in greek life, (ii) students in greek life, (iii) fraternities. Students will be able to see public greek life events, and get invited to multiple fraternity events and accept those invites.
+
+
 * NSLayoutConstraint used for everything
 * There are 5 distinct UITableViews.
 * Navigation: When an event is created or edited, there is a push with delegation. When you look at an event's details, it is presented with delegation. You can navigate between
